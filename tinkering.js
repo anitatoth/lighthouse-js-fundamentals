@@ -1,13 +1,5 @@
-function multiply(a, b) {
-  return a * b;
+function isThisWorking(input) {
+  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
 }
 
-const result = multiply(2,4);
-
-console.log(result);
-
-var bill = (10.25 + 3.99 + 7.15);
-var tip = bill*(.15);
-var total = "bill + tip";
-
-console.log(total);
+isThisWorking(3);
